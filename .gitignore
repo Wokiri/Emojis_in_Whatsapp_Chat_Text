@@ -3,6 +3,10 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+
+emojis_used_pie.html
+emojis_used_vbar.html
+
 # C extensions
 *.so
 
