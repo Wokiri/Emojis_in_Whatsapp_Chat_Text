@@ -65,6 +65,9 @@ emojis_used_DF = emojis_used_DF.sort_values(
     ascending = False
 )
 
+# print(data_json)
+# print(emojis_used_DF)
+
 
 
 output_file(filename = "emojis_used_pie.html", title='Piechart | Number of Emojis')
@@ -72,7 +75,7 @@ output_file(filename = "emojis_used_pie.html", title='Piechart | Number of Emoji
 emojis_used_CDS = ColumnDataSource(emojis_used_DF)
 
 emojis_used_fig = figure(
-    title="Piechart showing Emojis Used since 2/13/21 22:15 to 8/10/21 00:51",
+    title="Piechart showing Emojis Used",
     plot_height=800,
     plot_width=1000,
     tooltips=[
