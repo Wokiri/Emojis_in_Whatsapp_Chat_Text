@@ -8,7 +8,6 @@ A project using bokeh library to show graphs of Emojis used in a whatsapp chat
 
 I've used bokeh library to show the types and frequency of Emojis used in any given whatsapp chat, and displayed them in a graph.
 
-Just export a whatsapp chat and paste the contents into the file: [WhatsApp_Chat](./WhatsApp_Chat.txt), ![Uploading emojis_json.png…]()
-install the dependencies and run the python scripts...
+Just export a whatsapp chat and paste the contents into the file: [WhatsApp_Chat](./WhatsApp_Chat.txt), install the dependencies and run the python scripts...
 
 
